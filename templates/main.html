@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="main">
+    <div class="main" style="border: 2px solid red;">
         {% for item in flashcards %}
         <div class="left" style="position: relative;padding-bottom: 20px;">
             <div class="audio" style="position: absolute; top: 0; right: 0;margin-right: 35px">
@@ -19,7 +19,7 @@
             <div class="kanji-container">
                 <h1 class="kanji">{{ item.literal }}</h1>
                 <div class="container">
-                    <h5 class="jlpt" style="font-weight: 500;">jlpt: {{ item.jlpt }}</h5>
+                    <h5 class="jlpt" style="font-weight: 500;">JLPT: {{ item.jlpt }}</h5>
                     <h5 class="strokes" style="font-weight: 500;">strokes: {{ item.stroke_counts }}</h5>
                 </div>
             </div>
@@ -38,14 +38,14 @@
             </div>
             <div style=" border-top: 1px solid #8DA6BC; margin-bottom: 20px; width: 50%; margin-left: 70px;"></div>
             <div class="example" style="margin-top: 0px;">
-                <div class="sentence" style="margin-top: 0px;">{{ item.example }}</div>
-                <div class="translation " , style="text-align: center;">{{ item.example_translation}}</div>
+                <div class=" sentence " style="margin-top: 0px; ">{{ item.example }}</div>
+                <div class="translation " , style="text-align: center; ">{{ item.example_translation}}</div>
             </div>
         </div>
         {% endfor %}
     </div>
 
-    <script src="script.js"></script>
+    <script src="/static/script.js "></script>
 </body>
 
 </html>
