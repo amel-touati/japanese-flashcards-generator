@@ -11,7 +11,7 @@ right = width - 280
 bottom = height - 120
 
 # Open the image
-for ind in range(10):
+for ind in range(125):
     image = Image.open(f'output/{ind}.png')
     cropped_image = image.crop((left, top, right, bottom))
     cropped_image.save(f'flashcards/{ind}.png')

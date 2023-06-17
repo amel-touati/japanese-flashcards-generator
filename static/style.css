@@ -15,7 +15,6 @@
     
     .left {
         flex: 1;
-        position: relative;
         display: flex;
         height: 240px;
         border: 1px solid rgb(40, 40, 73);
@@ -32,14 +31,12 @@
     }
     
     .right {
-        position: relative;
         flex: 1;
         border: 1px solid rgb(40, 40, 73);
         height: 240px;
         /* Allow the right div to grow to fill available space */
         margin-left: 20px;
         border-radius: 20px;
-        overflow: hidden;
     }
     
     .meaning {
@@ -61,14 +58,15 @@
     h5 {
         margin: 0px;
         margin-bottom: 5px;
-        font-size: 16px;
+        font-size: 14px;
+        font-weight: 500;
     }
     
     .meaning {
         flex-direction: column;
         align-items: right;
-        margin-left: 50px;
-        margin-top: 40px;
+        margin-left: 5px;
+        margin-top: 30px;
         margin-right: 5px;
     }
     
@@ -125,7 +123,7 @@
     
     .kun {
         margin-left: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 8px;
         color: black;
     }
     
@@ -146,9 +144,7 @@
     }
     
     .translation {
-        position: absolute;
         text-align: center;
         font-size: 18px;
         font-weight: 500;
-        overflow: hidden;
     }

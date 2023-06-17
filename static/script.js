@@ -81,3 +81,51 @@ for (let i = 0; i < kun_readings_split.length; i++) {
     kun_readings.innerHTML = kun_readings.innerHTML.replace(/\./g, '');
 
 }
+
+var sentenceDiv = document.querySelector('.sentence');
+var translationDiv = document.querySelector('.translation');
+var meaningDiv = document.querySelector('.meaning');
+var h5Elements = meaningDiv.querySelectorAll('h5');
+
+function adjustFontSize() {
+    var sentenceOverflow = sentenceDiv.scrollWidth > sentenceDiv.clientWidth;
+    var translationOverflow = translationDiv.scrollWidth > translationDiv.clientWidth;
+    var meaningOverflow = meaningDiv.scrollWidth > meaningDiv.clientWidth;
+
+    if (sentenceOverflow) {
+        sentenceDiv.style.fontSize = '10px'; // Adjust the font size as needed
+    } else {
+        sentenceDiv.style.fontSize = 'inherit'; // Reset the font size
+    }
+
+    if (translationOverflow) {
+        translationDiv.style.fontSize = '10px'; // Adjust the font size as needed
+    } else {
+        translationDiv.style.fontSize = 'inherit'; // Reset the font size
+    }
+
+    if (meaningOverflow) {
+        h5Elements.forEach(function(h5) {
+            h5.style.fontSize = '10px'; // Adjust the font size as needed
+        });
+    } else {
+        h5Elements.forEach(function(h5) {
+            h5.style.fontSize = 'inherit'; // Reset the font size
+        });
+    }
+}
+
+// Call the adjustFontSize function whenever the window is resized
+window.addEventListener('resize', adjustFontSize);
+
+// Call the adjustFontSize function initially
+adjustFontSize();
+
+
+function playAudio(audioPath) {
+    var audio = new Audio(audioPath);
+    audio.onerror = function() {
+        console.error('Failed to load audio:', audioPath);
+    };
+    audio.play();
+}
