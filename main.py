@@ -10,12 +10,16 @@ df = pd.read_csv('data/kanji_data.csv')
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/audio", StaticFiles(directory="words"), name="audio")
+app.mount("/examples", StaticFiles(directory="examples"), name="examples")
 
 templates = Jinja2Templates(directory="templates")
 
 def get_meaning_list(row):
     meanings = df['meanings'][row].split(',')
     cleaned_list = [meaning.strip().replace("[", "").replace("]", "").replace("'", "") for meaning in meanings]
+    if len(cleaned_list)>9:
+        cleaned_list = cleaned_list[0:9]
     return cleaned_list
 
 for ind in range(len(df)):

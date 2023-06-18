@@ -85,12 +85,15 @@ for (let i = 0; i < kun_readings_split.length; i++) {
 var sentenceDiv = document.querySelector('.sentence');
 var translationDiv = document.querySelector('.translation');
 var meaningDiv = document.querySelector('.meaning');
+var meanDiv = document.querySelector('.mean');
 var h5Elements = meaningDiv.querySelectorAll('h5');
 
 function adjustFontSize() {
     var sentenceOverflow = sentenceDiv.scrollWidth > sentenceDiv.clientWidth;
     var translationOverflow = translationDiv.scrollWidth > translationDiv.clientWidth;
     var meaningOverflow = meaningDiv.scrollWidth > meaningDiv.clientWidth;
+    var meanOverflow = meanDiv.scrollWidth > meanDiv.clientWidth;
+
 
     if (sentenceOverflow) {
         sentenceDiv.style.fontSize = '10px'; // Adjust the font size as needed
@@ -104,15 +107,7 @@ function adjustFontSize() {
         translationDiv.style.fontSize = 'inherit'; // Reset the font size
     }
 
-    if (meaningOverflow) {
-        h5Elements.forEach(function(h5) {
-            h5.style.fontSize = '10px'; // Adjust the font size as needed
-        });
-    } else {
-        h5Elements.forEach(function(h5) {
-            h5.style.fontSize = 'inherit'; // Reset the font size
-        });
-    }
+
 }
 
 // Call the adjustFontSize function whenever the window is resized

@@ -9,12 +9,13 @@
 </head>
 
 <body style="font-family: Arvo;">
-    <div class="main" style="border: 2px solid red;">
+    <div class="main">
         {% for item in flashcards %}
         <div class="left" style="position: relative;padding-bottom: 20px;">
-            <div class="audio" style="position: absolute; top: 0; right: 0; margin-top: 5px; margin-right: 5px;">
-                <img src="/static/audio.PNG" width="40" height="40" onclick="playAudio('0.mp3')">
+            <div class="audio" style="position: absolute; top: 0; right: 0; margin-top: 5px; margin-right: 5px;" onclick="playAudio('/audio/{{ item.id }}.mp3')">
+                <img src="/static/audio.PNG" width="40" height="40" onclick="playAudio('/audio/{{item.id}}.mp3')">
             </div>
+
 
             <div class="kanji-container">
                 <h1 class="kanji">{{ item.literal }}</h1>
@@ -25,19 +26,23 @@
             </div>
             <div class="meaning" style="margin-top: 50px;margin-left: 20px;">
                 {% for meaning in meanings%}
-                <h5>{{ meaning }}</h5>
+                <h5 class="mean">{{ meaning }}</h5>
                 {% endfor %}
             </div>
         </div>
         <div class="right" style="padding-bottom: 20px;">
-            <div class="reading">
-                <h4 class="kun_on" style="margin-top: 20px;">ON readings:</h4>
-                <div class="on">{{ item.ja_ons }}</div>
-                <h4 class="kun_on">KUN readings:</h4>
-                <div class="kun">{{ item.ja_kuns }}</div>
+            <div class="audio" style="margin-left: 240px; margin-top: 5px; margin-bottom: 0;" onclick="playAudio( '/examples/{{item.id}}.mp3') ">
+                <img src="/static/audio.PNG " width="40 " height="40 " onclick="playAudio( '/examples/{{item.id}}.mp3') ">
             </div>
-            <div style=" border-top: 1px solid #8DA6BC; margin-bottom: 20px; width: 50%; margin-left: 70px;"></div>
-            <div class="example" style="margin-top: 0px;">
+
+            <div class="reading ">
+                <h4 class="kun_on " style="margin-top: 0px;">ON readings:</h4>
+                <div class="on ">{{ item.ja_ons }}</div>
+                <h4 class="kun_on ">KUN readings:</h4>
+                <div class="kun ">{{ item.ja_kuns }}</div>
+            </div>
+            <div style=" border-top: 1px solid #8DA6BC; margin-bottom: 10px; width: 50%; margin-left: 70px; "></div>
+            <div class="example " style="margin-top: 0px; ">
                 <div class=" sentence " style="margin-top: 0px; ">{{ item.example }}</div>
                 <div class="translation " , style="text-align: center; ">{{ item.example_translation}}</div>
             </div>

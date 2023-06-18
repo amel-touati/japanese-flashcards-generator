@@ -4,5 +4,8 @@ import pandas as pd
 
 df = pd.read_csv('data/kanji_data.csv') 
 
-tts = gtts.gTTS(df['literal'][0], lang='ja')
-tts.save(f'audio/{0}.mp3')
+for ind in range(1834,len(df)):
+    tts = gtts.gTTS(df['example'][ind], lang='ja')
+    tts.save(f'examples/{ind}.mp3')
+    tts = gtts.gTTS(df['literal'][ind], lang='ja')
+    tts.save(f'words/{ind}.mp3')
