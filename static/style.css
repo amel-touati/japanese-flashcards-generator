@@ -6,10 +6,10 @@ body {
 
 .main {
     display: flex;
-    flex-direction: column;
+    /* Use flexbox to enable side-by-side layout */
     align-items: center;
-    justify-content: center;
     /* Center the items vertically */
+    margin: 0 0 0 0;
     /* Center the div horizontally */
     padding: 20px;
     /* Add padding to the div */

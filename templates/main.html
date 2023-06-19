@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="/static/style.css">
 </head>
 
-<body style="font-family: Arvo; display: flex; align-items: center; justify-content: center;">
-    <div class="main" style="margin-top: 100px;">
+<body style="font-family: Arvo;">
+    <div class="main">
         {% for item in flashcards %}
         <div class="left" style="position: relative;padding-bottom: 20px;height: 240px">
             <div class="audio" style="position: absolute; top: 0; right: 0; margin-top: 5px; margin-right: 5px;" onclick="playAudio('/audio/{{ item.id }}.mp3')">
