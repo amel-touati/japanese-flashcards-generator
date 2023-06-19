@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #004aad;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    justify-content: center;
+    align-self: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+input {
+    border: 2px #ced3dc solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 5px;
+}
