@@ -1,0 +1,78 @@
+,literal,grade,stroke_counts,freq,jlpt,ja_ons,ja_kuns,meanings,example,example_translation
+0,日,1.0,4,1,5,"['ニチ', 'ジツ']","['ひ', '-び', '-か']","['day', 'sun', 'Japan', 'counter for days']",天気のよい日です。,It's a nice day.
+1,一,1.0,1,2,5,"['イチ', 'イツ']","['ひと-', 'ひと.つ']","['one', 'one radical (no.1)']",来週になると一家族が入ってくる。,Next week a family will move in.
+2,国,2.0,8,3,5,['コク'],['くに'],['country'],日本はいい国です。,Japan is a nice country.
+3,年,1.0,6,6,5,['ネン'],['とし'],"['year', 'counter for years']",今年は１９９０年です。,This is the year 1990.
+4,大,1.0,3,7,5,"['ダイ', 'タイ']","['おお-', 'おお.きい', '-おお.いに']","['large', 'big']",昨夜、大地震があった。,There was a big earthquake last night.
+5,十,1.0,2,8,5,"['ジュウ', 'ジッ', 'ジュッ']","['とお', 'と', 'そ']",['ten'],十から四を引けば六が残る。,"If you take four from ten, you have six."
+6,二,1.0,2,9,5,"['ニ', 'ジ']","['ふた', 'ふた.つ', 'ふたたび']","['two', 'two radical (no. 7)']",二、三歩下がって下さい。,Please walk back a few steps.
+7,中,1.0,4,11,5,['チュウ'],"['なか', 'うち', 'あた.る']","['in', 'inside', 'middle', 'mean', 'center']",中を見てもいいです。,You can look inside.
+8,長,2.0,8,12,5,['チョウ'],"['なが.い', 'おさ']","['long', 'leader', 'superior', 'senior']",チームの長として私は彼に有能な助力を得た。,As head of the team I was ably assisted by him.
+9,出,1.0,5,13,5,"['シュツ', 'スイ']","['で.る', '-で', 'だ.す', '-だ.す', 'い.でる', 'い.だす']","['exit', 'leave', 'go out', 'come out', 'put out', 'protrude']",このズボンはひざが出やすい。,These pants tend to go baggy at the knees.
+10,三,1.0,3,14,5,"['サン', 'ゾウ']","['み', 'み.つ', 'みっ.つ']",['three'],二、三歩下がって下さい。,Please walk back a few steps.
+11,時,2.0,10,16,5,['ジ'],"['とき', '-どき']","['time', 'hour']",７時に電話します。,I'll call you at seven.
+12,行,2.0,6,20,5,"['コウ', 'ギョウ', 'アン']","['い.く', 'ゆ.く', '-ゆ.き', '-ゆき', '-い.き', '-いき', 'おこな.う', 'おこ.なう']","['going', 'journey', 'carry out', 'conduct', 'act', 'line', 'row', 'bank']",行と行との間をあける。,Leave a space between the lines.
+13,見,1.0,7,22,5,['ケン'],"['み.る', 'み.える', 'み.せる']","['see', 'hopes', 'chances', 'idea', 'opinion', 'look at', 'visible']",あたりを見まわしたが、何も見えなかった。,"I looked around, but saw nothing."
+14,月,1.0,4,23,5,"['ゲツ', 'ガツ']",['つき'],"['month', 'moon']",１０月３日です。,It's the third of October.
+15,分,2.0,4,24,5,"['ブン', 'フン', 'ブ']","['わ.ける', 'わ.け', 'わ.かれる', 'わ.かる', 'わ.かつ']","['part', 'minute of time', 'segment', 'share', 'degree', '""ones lot""', 'duty', 'understand', 'know', 'rate', '1%', 'chances', 'shaku/100']",その電車は３分おきにでています。,Those trains run every three minutes.
+16,後,2.0,9,26,5,"['ゴ', 'コウ']","['のち', 'うし.ろ', 'うしろ', 'あと', 'おく.れる']","['behind', 'back', 'later']",私は後から行きます。,I'll join you later.
+17,前,2.0,9,27,5,['ゼン'],"['まえ', '-まえ']","['in front', 'before']",その前に入りますか。,Will I be able to get it before then?
+18,生,1.0,5,29,5,"['セイ', 'ショウ']","['い.きる', 'い.かす', 'い.ける', 'う.まれる', 'うま.れる', 'う.まれ', 'うまれ', 'う.む', 'お.う', 'は.える', 'は.やす', 'き', 'なま', 'なま-', 'な.る', 'な.す', 'む.す', '-う']","['life', 'genuine', 'birth']",生の魚はすぐに悪くなってしまいます。,Raw fish easily goes bad.
+19,五,1.0,4,31,5,['ゴ'],"['いつ', 'いつ.つ']",['five'],三に二を足すと五になる。,"Add two to three, and you get five."
+20,間,2.0,12,33,5,"['カン', 'ケン']","['あいだ', 'ま', 'あい']","['interval', 'space']",長い間さがしていた本が見つかった。,I found the book I had long been looking for.
+21,上,1.0,3,35,5,"['ジョウ', 'ショウ', 'シャン']","['うえ', '-うえ', 'うわ-', 'かみ', 'あ.げる', '-あ.げる', 'あ.がる', '-あ.がる', 'あ.がり', '-あ.がり', 'のぼ.る', 'のぼ.り', 'のぼ.せる', 'のぼ.す', 'たてまつ.る']","['above', 'up']",サリーはケンより２つ上です。,Sally is two years senior to Ken.
+22,東,2.0,8,37,5,['トウ'],['ひがし'],['east'],わたしの大学はえきの東にあります。,My university is on the east of the train station.
+23,四,1.0,5,47,5,['シ'],"['よ', 'よ.つ', 'よっ.つ', 'よん']",['four'],四かい書いてください。,Write it four times.
+24,今,2.0,4,49,5,"['コン', 'キン']",['いま'],['now'],今、行くわ。,I'm coming.
+25,金,1.0,8,53,5,"['キン', 'コン', 'ゴン']","['かね', 'かな-', '-がね']",['gold'],彼は金に困っている。,He is hard up for money.
+26,九,1.0,2,55,5,"['キュウ', 'ク']","['ここの', 'ここの.つ']",['nine'],九引く六はいくつですか。,How many is nine minus six?
+27,入,1.0,2,56,5,"['ニュウ', 'ジュ']","['い.る', '-い.る', '-い.り', 'い.れる', '-い.れ', 'はい.る']","['enter', 'insert']",三番目の、そしてもっとも重要な考えは、再入ということである。,The third and most important idea is that of reentry.
+28,学,1.0,8,63,5,['ガク'],['まな.ぶ'],"['study', 'learning', 'science']",彼は非常に学がある。,He is very learned.
+29,高,2.0,10,65,5,['コウ'],"['たか.い', 'たか', '-だか', 'たか.まる', 'たか.める']","['tall', 'high', 'expensive']",高感度フィルムは出してもいいですか。,Can I unload the high speed film?
+30,円,1.0,4,69,5,['エン'],"['まる.い', 'まる', 'まど', 'まど.か', 'まろ.やか']","['circle', 'yen', 'round']",その手紙を送るのに１００円かかった。,It cost me 100 yen to send the letter.
+31,子,1.0,3,72,5,"['シ', 'ス', 'ツ']","['こ', '-こ', 'ね']","['child', 'sign of the rat', '11PM-1AM', 'first sign of Chinese zodiac']",その子は病気で日曜から入院しています。,That child is sick and has been in the hospital since last Sunday.
+32,外,2.0,5,81,5,"['ガイ', 'ゲ']","['そと', 'ほか', 'はず.す', 'はず.れる', 'と-']",['outside'],外はさむいでしょう。,"It’s cold outside, isn’t it?"
+33,八,1.0,2,92,5,"['ハチ', 'ハツ']","['や', 'や.つ', 'やっ.つ', 'よう']","['eight', 'eight radical (no. 12)']",私は一か八か彼の挑戦を受けてみた。,I took a chance and accepted his challenge.
+34,六,1.0,4,93,5,"['ロク', 'リク']","['む', 'む.つ', 'むっ.つ', 'むい']",['six'],十から四を引けば六が残る。,"If you take four from ten, you have six."
+35,下,1.0,3,97,5,"['カ', 'ゲ']","['した', 'しも', 'もと', 'さ.げる', 'さ.がる', 'くだ.る', 'くだ.り', 'くだ.す', '-くだ.す', 'くだ.さる', 'お.ろす', 'お.りる']","['below', 'down', 'descend', 'give', 'low', 'inferior']",骨は皮膚の下にある。,Your bones are beneath your skin.
+36,来,2.0,7,102,5,"['ライ', 'タイ']","['く.る', 'きた.る', 'きた.す', 'き.たす', 'き.たる', 'き', 'こ']","['come', 'due', 'next', 'cause', 'become']",車があれば、自由に行ったり来たりできるよ。,"If you have a car, you can come and go at will."
+37,気,1.0,6,113,5,"['キ', 'ケ']",['き'],"['spirit', 'mind', 'air', 'atmosphere', 'mood']",気にするな。,Never mind!
+38,小,1.0,3,114,5,['ショウ'],"['ちい.さい', 'こ-', 'お-', 'さ-']","['little', 'small']",これは使いやすい小箱です。,This is a handy little box.
+39,七,1.0,2,115,5,['シチ'],"['なな', 'なな.つ', 'なの']",['seven'],七度尋ねて人を疑え。,"Measure twice, cut once (literally: search seven times, then doubt)."
+40,山,1.0,3,131,5,"['サン', 'セン']",['やま'],['mountain'],あの高い山は何ですか。,What is that high mountain over there?
+41,話,2.0,13,134,5,['ワ'],"['はな.す', 'はなし']","['tale', 'talk']",何の話？,What're you talking about?
+42,女,1.0,3,151,5,"['ジョ', 'ニョ', 'ニョウ']","['おんな', 'め']","['woman', 'female']",「女の一生」,A Woman's Life
+43,北,2.0,5,153,5,['ホク'],['きた'],['north'],古い教会はその町の北にある。,The old church stands north of the town.
+44,午,2.0,4,154,5,['ゴ'],['うま'],"['noon', 'sign of the horse', '11AM-1PM', 'seventh sign of Chinese zodiac']",ほとんど正午近かった。,It was nearly noon.
+45,百,1.0,6,163,5,"['ヒャク', 'ビャク']",['もも'],['hundred'],千に百を加えると千百になる。,"If you add one hundred to one thousand, you get eleven hundred."
+46,書,2.0,10,169,5,['ショ'],"['か.く', '-が.き', '-がき']",['write'],請求書を見せて頂けますか。,May I see the bill please?
+47,先,1.0,6,173,5,['セン'],"['さき', 'ま.ず']","['before', 'ahead', 'previous', 'future', 'precedence']",学校は２キロ先にある。,The school is two kilometers ahead.
+48,名,1.0,6,177,5,"['メイ', 'ミョウ']","['な', '-な']","['name', 'noted', 'distinguished', 'reputation']",彼女はエイミーの名で通っている。,She goes by the name of Amy.
+49,川,1.0,3,181,5,['セン'],['かわ'],"['stream', 'river', 'river or three-stroke river radical (no. 47)']",少年たちはいかだで川をくだった。,The boy went down the river on a raft.
+50,千,1.0,3,195,5,['セン'],['ち'],['thousand'],千に百を加えると千百になる。,"If you add one hundred to one thousand, you get eleven hundred."
+51,水,1.0,4,223,5,['スイ'],"['みず', 'みず-']",['water'],小川の水を飲む。,Drink water from a stream.
+52,半,2.0,5,224,5,['ハン'],['なか.ば'],"['half', 'middle', 'odd number', 'semi-', 'part-']",５時半におきなければならない。,I have to get up at half past five.
+53,男,1.0,7,240,5,"['ダン', 'ナン']","['おとこ', 'お']",['male'],いい男見つけたね。,You got yourself a nice guy.
+54,西,2.0,6,259,5,"['セイ', 'サイ', 'ス']",['にし'],"['west', 'Spain']",この町は西も東も分かりません。,I'm quite a stranger in this town.
+55,電,2.0,13,268,5,['デン'],[],['electricity'],電気を消していただけませんか。,Could you turn off the lights?
+56,校,1.0,10,294,5,"['コウ', 'キョウ']",[],"['exam', 'school', 'printing', 'proof', 'correction']",我が校は彼の授業法を採用した。,Our school adopted his teaching methods.
+57,語,2.0,14,301,5,['ゴ'],"['かた.る', 'かた.らう']","['word', 'speech', 'language']",５０語以内で書きなさい。,Write in less than 50 words.
+58,土,1.0,3,307,5,"['ド', 'ト']",['つち'],"['soil', 'earth', 'ground', 'Turkey']",やせた土を肥沃で元気な土に改良します！,(This product will) make infertile soil rich and healthy.
+59,木,1.0,4,317,5,"['ボク', 'モク']","['き', 'こ-']","['tree', 'wood']",紙は木から作られる。,Paper is made from wood.
+60,聞,2.0,14,319,5,"['ブン', 'モン']","['き.く', 'き.こえる']","['hear', 'ask', 'listen']",「私はおじいさんからはじめて聞きました」,"""I heard about it for the first time from the old man."""
+61,食,2.0,9,328,5,"['ショク', 'ジキ']","['く.う', 'く.らう', 'た.べる', 'は.む']","['eat', 'food']",例外は中国で、おそらく平らなパンは食されていなかった。,"The exception was in China, where flat bread was probably not eaten."
+62,車,1.0,7,333,5,['シャ'],['くるま'],['car'],この車はわたしのだ。,This car is mine.
+63,南,2.0,9,341,5,"['ナン', 'ナ']",['みなみ'],['south'],鳥は冬になると南へ飛んでいく。,Birds fly south in winter.
+64,万,2.0,3,375,5,"['マン', 'バン']",['よろず'],"['ten thousand', '10', '000']",その仕事は毎月５０万円になる。,The job earns him half a million yen every month.
+65,毎,2.0,6,436,5,['マイ'],"['ごと', '-ごと.に']",['every'],毎日曜日に教会に行きます。,I go to church every Sunday.
+66,白,1.0,5,483,5,"['ハク', 'ビャク']","['しろ', 'しら-', 'しろ.い']",['white'],あの白ワインを少し試してみたらどう？,Why not try some of that white wine?
+67,天,1.0,4,512,5,['テン'],"['あまつ', 'あめ', 'あま-']","['heavens', 'sky', 'imperial']",彼は天の助けを得た。,He got assistance from above.
+68,母,2.0,5,570,5,['ボ'],"['はは', 'も']",['mother'],フレッドは母に長い手紙を書いた。,Fred wrote his mother a long letter.
+69,火,1.0,4,574,5,['カ'],"['ひ', '-び', 'ほ-']",['fire'],火を貸してくれませんか。,"Give me a light, would you?"
+70,右,1.0,5,602,5,"['ウ', 'ユウ']",['みぎ'],['right'],駅が右にあります。,The station is on the right.
+71,読,2.0,14,618,5,"['ドク', 'トク', 'トウ']","['よ.む', '-よ.み']",['read'],向こうで本を読でいる人はわたしの父です。,The man reading a book over there is my father.
+72,友,2.0,4,622,5,['ユウ'],['とも'],['friend'],私と友に眠る。,She lies here beside me.
+73,左,1.0,5,630,5,"['サ', 'シャ']",['ひだり'],['left'],入るお金が右から左へと出てしまう。,I spend money as soon as I get it.
+74,休,1.0,6,642,5,['キュウ'],"['やす.む', 'やす.まる', 'やす.める']","['rest', 'day off', 'retire', 'sleep']",私は５月に休暇をとるつもりだ。,I expect to take a vacation in May.
+75,父,2.0,4,646,5,['フ'],['ちち'],['father'],父はこの電車でボストンに行きます。,My Dad is going to Boston on the train.
+76,雨,1.0,8,950,5,['ウ'],"['あめ', 'あま-', '-さめ']",['rain'],雨が小やみになった。,The rains entered a lull.
