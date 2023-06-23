@@ -6,7 +6,7 @@ import pandas as pd
 import json
 
 # Read the CSV file and preprocess the data
-df = pd.read_csv('data/jlpt_N5.csv')
+df = pd.read_csv('data/kanji_data.csv')
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
